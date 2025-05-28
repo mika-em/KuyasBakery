@@ -17,9 +17,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header className="p-4 bg-base-200 shadow-md">
-          <h1 className="text-xl font-bold">Kuya&#39;s Bakery</h1>
-        </header>
         <main className="max-w-5xl mx-auto p-4">{children}</main>
       </body>
     </html>
