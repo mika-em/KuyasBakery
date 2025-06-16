@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@prisma/client": "^6.9.0",
     "daisyui": "^5.0.35",
     "next": "15.3.2",
+    "prisma": "^6.9.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -26,6 +28,10 @@
     "eslint-config-next": "15.3.2",
     "postcss": "^8.5.3",
     "tailwindcss": "^3.4.17",
+    "tsx": "^4.19.4",
     "typescript": "^5"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
   }
 }
